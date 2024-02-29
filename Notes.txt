@@ -1,0 +1,26 @@
+Generate Reports:
+
+HTML:
+npx playwright show-report
+
+
+Allure:
+
+allure generate my-allure-results -o allure-report --clean
+
+
+allure open allure-report
+
+
+
+Run Tests:
+
+ npx playwright test gui.spec.js --headed --project=chromium
+
+
+Upgrade modules:
+Insurance Portal Page
+
+1743518
+
+
